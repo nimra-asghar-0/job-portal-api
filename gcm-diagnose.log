@@ -1,0 +1,193 @@
+﻿Diagnose log at 2026-07-31T21:30:05Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.9.0+194ba290ce533465310d50f811684ab180536ae7
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 19045)
+Reading environment variables... OK
+ Variables:
+SystemDrive=C:
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+GIT_TRACE=1
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+TMP=C:\Windows\TEMP
+PROCESSOR_ARCHITECTURE=AMD64
+_OLD_VIRTUAL_PATH=c:\Users\NOOR\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\NOOR\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot\bin;C:\Program Files\PostgreSQL\17\bin;C:\Users\NOOR\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\NOOR\AppData\Local\Programs\Python\Python312\;C:\Users\NOOR\AppData\Local\Microsoft\WindowsApps;C:\xampp\php;C:\Users\NOOR\AppData\Roaming\Composer\vendor\bin;%PyCharm Community Edition%;C:\msys64\ucrt64\bin;C:\Program Files\apache-tomcat-9.0.112\bin;C:\Java\jdk-17\bin;C:\Users\NOOR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NOOR\AppData\Local\Python\bin;C:\Users\NOOR\AppData\Local\Programs\cursor\resources\app\bin;c:\Users\NOOR\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\NOOR\bin;D:\JobPortalAPI\venv\Scripts;c:\Users\NOOR\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\NOOR\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot\bin;C:\Program Files\PostgreSQL\17\bin;C:\Users\NOOR\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\NOOR\AppData\Local\Programs\Python\Python312\;C:\Users\NOOR\AppData\Local\Microsoft\WindowsApps;C:\xampp\php;C:\Users\NOOR\AppData\Roaming\Composer\vendor\bin;%PyCharm Community Edition%;C:\msys64\ucrt64\bin;C:\Program Files\apache-tomcat-9.0.112\bin;C:\Java\jdk-17\bin;C:\Users\NOOR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NOOR\AppData\Local\Python\bin;C:\Users\NOOR\AppData\Local\Programs\cursor\resources\app\bin;c:\Users\NOOR\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts;C:\Program Files\Git\cmd;C:\Windows\System32;C:\Windows;C:\Windows\System32\OpenSSH
+CLAUDE_CODE_SSE_PORT=60112
+GIT_CURL_VERBOSE=1
+PROCESSOR_REVISION=4501
+ChocolateyLastPathUpdate=133395846848680863
+USERPROFILE=C:\Users\NOOR
+LOGONSERVER=\\DESKTOP-0JTINUR
+TEMP=C:\Windows\TEMP
+PYDEVD_DISABLE_FILE_VALIDATION=1
+USERNAME=NOOR
+SystemRoot=C:\Windows
+VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=c:\Users\NOOR\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\.noConfigDebugAdapterEndpoints\endpoint-b640cfb9a80053c3.txt
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_1312_QROMSZPJBHJWWVKC
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+PLINK_PROTOCOL=ssh
+OneDrive=C:\Users\NOOR\OneDrive
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-0JTINUR
+CommonProgramFiles=C:\Program Files\Common Files
+VSCODE_INJECTION=1
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+PYTHON_BASIC_REPL=1
+ProgramData=C:\ProgramData
+LANG=en_US.UTF-8
+HOMEPATH=\Users\NOOR
+COMPUTERNAME=DESKTOP-0JTINUR
+PYTHONSTARTUP=c:\Users\NOOR\AppData\Roaming\Code\User\workspaceStorage\70ab5e7a552486b97d9bf2c59b729a8e\ms-python.python\pythonrc.py
+BUNDLED_DEBUGPY_PATH=c:\Users\NOOR\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+COPILOT_DEBUG_NONCE=4dd32bc3f9a7700cbc982199bfedf5ef
+ChocolateyInstall=C:\ProgramData\chocolatey
+TERM=xterm-256color
+SESSIONNAME=Console
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+windir=C:\Windows
+GIT_TRACE2_PARENT_SID=fb8925be-691b-4c3c-9761-6a0fb9b6e64f
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+ProgramFiles=C:\Program Files
+ComSpec=C:\Windows\system32\cmd.exe
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+HOME=C:\Users\NOOR
+JAVA_HOME=C:\Java\jdk-17
+PSModulePath=C:\Users\NOOR\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+TMPDIR=C:\Windows\TEMP
+VIRTUAL_ENV_PROMPT=venv
+APPDATA=C:\Users\NOOR\AppData\Roaming
+USERDOMAIN=DESKTOP-0JTINUR
+PROCESSOR_LEVEL=6
+VIRTUAL_ENV=D:\JobPortalAPI\venv
+LOCALAPPDATA=C:\Users\NOOR\AppData\Local
+PSExecutionPolicyPreference=RemoteSigned
+TERM_PROGRAM_VERSION=1.131.0
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+COLORTERM=truecolor
+PUBLIC=C:\Users\Public
+TERM_PROGRAM=vscode
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Windows\TEMP\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Windows\TEMP\76c5407e91e221f570f0baf1'... OK
+Reading from temporary file 'C:\Windows\TEMP\76c5407e91e221f570f0baf1'... OK
+Deleting temporary file 'C:\Windows\TEMP\76c5407e91e221f570f0baf1'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\NOOR
+UserDataDirectoryPath: C:\Users\NOOR\.gcm
+GetCurrentDirectory(): D:\JobPortalAPI
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:53484/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.55.0.windows.3'
+Locating current repository...Git repository at 'D:/JobPortalAPI/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/NOOR/.gitconfig	user.name=Nimra Asghar
+file:C:/Users/NOOR/.gitconfig	user.email=asgharnimra1122@gmail.com
+file:C:/Users/NOOR/.gitconfig	credential.helper=
+file:C:/Users/NOOR/.gitconfig	credential.helper=C:/Program\ Files/Git/mingw64/bin/git-credential-manager.exe
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/nimra-asghar-0/job-portal-api.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\NOOR\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\NOOR\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
