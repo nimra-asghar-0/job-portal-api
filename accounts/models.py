@@ -6,7 +6,7 @@ class User(AbstractUser):
 
     class UserRole(models.TextChoices):
         CANDIDATE="candidate","Candidate"
-        RECRUITER="Recruiter","recruiter"
+        RECRUITER="recruiter","Recruiter"
 
     # username=None
     username = models.CharField(max_length=150, unique=True)
