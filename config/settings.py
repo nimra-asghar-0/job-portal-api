@@ -144,7 +144,12 @@ REST_FRAMEWORK = {
    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
 "PAGE_SIZE": 2,
 }
-
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Job Portal API",
+    "DESCRIPTION": "API for managing jobs, companies, and applications.",
+    "VERSION": "1.0.0",
+    "COMPONENT_SPLIT_REQUEST": True,
+}
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=30),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=7),
