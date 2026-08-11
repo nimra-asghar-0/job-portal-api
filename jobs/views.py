@@ -20,8 +20,22 @@ class JobListCreateView(generics.ListCreateAPIView):
     ]
 
     filterset_class = JobFilter
-    search_fields = ["title", "company", "location", "skills"]
-    ordering_fields = ["created_at", "salary_min", "salary_max"]
+
+    search_fields = [
+        "title",
+        "description",
+        "company",
+        "location",
+        "skills",
+    ]
+
+    ordering_fields = [
+        "created_at",
+        "salary_min",
+        "salary_max",
+        "title",
+    ]
+
     ordering = ["-created_at"]
 
     def get_permissions(self):
@@ -31,7 +45,9 @@ class JobListCreateView(generics.ListCreateAPIView):
                 IsRecruiter(),
             ]
 
-        return [IsAuthenticated()]
+        return [
+            IsAuthenticated(),
+        ]
 
     def perform_create(self, serializer):
         serializer.save(recruiter=self.request.user)
@@ -40,4 +56,14 @@ class JobListCreateView(generics.ListCreateAPIView):
 class JobDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Job.objects.all()
     serializer_class = JobSerializer
-    permission_classes = [IsAuthenticated, IsRecruiterOwner]
+
+    def get_permissions(self):
+        if self.request.method == "GET":
+            return [
+                IsAuthenticated(),
+            ]
+
+        return [
+            IsAuthenticated(),
+            IsRecruiterOwner(),
+        ]
