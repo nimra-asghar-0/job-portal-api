@@ -8,9 +8,21 @@ from .serializers import JobSerializer
 from .permissions import IsRecruiter, IsRecruiterOwner
 from .filters import JobFilter
 
+
 class JobListCreateView(generics.ListCreateAPIView):
     queryset = Job.objects.all()
     serializer_class = JobSerializer
+
+    filter_backends = [
+        DjangoFilterBackend,
+        SearchFilter,
+        OrderingFilter,
+    ]
+
+    filterset_class = JobFilter
+    search_fields = ["title", "company", "location", "skills"]
+    ordering_fields = ["created_at", "salary_min", "salary_max"]
+    ordering = ["-created_at"]
 
     def get_permissions(self):
         if self.request.method == "POST":
@@ -21,13 +33,8 @@ class JobListCreateView(generics.ListCreateAPIView):
 
         return [IsAuthenticated()]
 
-    filter_backends = [
-        DjangoFilterBackend,
-        SearchFilter,
-        OrderingFilter,
-    ]
-
-    # ... keep the rest of your existing code
+    def perform_create(self, serializer):
+        serializer.save(recruiter=self.request.user)
 
 
 class JobDetailView(generics.RetrieveUpdateDestroyAPIView):
